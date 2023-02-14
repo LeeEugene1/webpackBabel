@@ -11,7 +11,11 @@ module.exports = {
             {
                 test:/\.css$/,
                 use:["style-loader","css-loader"],
-            }
+            },
+            {
+                test:/\.(jp(e*)g|png|svg)$/,
+                use:['file-loader']
+            },
         ]
     },
     plugins:[//html-webpack-plugin을 활용하여 html도 합치기
