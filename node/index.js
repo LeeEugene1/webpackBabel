@@ -21,7 +21,8 @@ router.use('/',(req,res)=>{
 	res.render('index',{})
 })
 
-app.use(express.static('public'));
+app.use(express.static('public'));//이경우 src의 경로 root는 public내에서만 가져옴
+// app.use(express.static('dist'));
 app.use("/", router)
 
 const PORT = 500
