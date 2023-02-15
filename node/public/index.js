@@ -1,4 +1,5 @@
 import {add, hello} from './util.js'
+import './footer.js'
 import "./style.css"
 import land from "./images/land.jpg"
 import sheep from "./images/117.png"
@@ -12,6 +13,6 @@ const svg = `<img src="${burger}" style="width:100px; height:auto">`
 document.getElementById('root').innerHTML = `
 <p>${img}</p>
 <p>${svg}</p>
-${text} webpack!!@!!!${num}
+${text} webpack nodejs!!!${num}
 <p>${png}</p>
 `
