@@ -1,5 +1,5 @@
 import {add, hello} from './util.js'
-import './footer.js'
+import './section.js'
 import "./style.css"
 import land from "./images/land.jpg"
 import sheep from "./images/117.png"
