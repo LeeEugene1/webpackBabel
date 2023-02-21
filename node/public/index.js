@@ -10,7 +10,8 @@ import './normalize.css'
 
 const text = hello('hello')
 const num = add(1,2)
-const img = `<img src="${land}" style="width:100px; height:auto">`
+const img = `<img src="./images/land.jpg" style="width:100px; height:auto">`
+// const img = `<img src="${land}" style="width:100px; height:auto">`
 const png = `<img src="${sheep}" style="width:100px; height:auto">`
 const svg = `<img src="${burger}" style="width:100px; height:auto">`
 // const bg = `<img src="https://cdn.sheepfarm.io/images/www/banner_pvp.jpg" style="width:100px; height:auto">`
