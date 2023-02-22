@@ -12,13 +12,14 @@ const text = hello('hello')
 const num = add(1,2)
 const img = `<img src="./images/land.jpg" style="width:100px; height:auto">`
 // const img = `<img src="${land}" style="width:100px; height:auto">`
-const png = `<img src="${sheep}" style="width:100px; height:auto">`
-const svg = `<img src="${burger}" style="width:100px; height:auto">`
+const png = `<img src="./images/117.png" style="width:100px; height:auto">`
+const svg = `<img src="./images/hamburger.svg" style="width:100px; height:auto">`
 // const bg = `<img src="https://cdn.sheepfarm.io/images/www/banner_pvp.jpg" style="width:100px; height:auto">`
-const bg = `<img src="${banner2}" style="width:100px; height:auto">`
+const bg = `<img src='./images/banner_pvp_optimized.jpg' style="width:100px; height:auto">`
 
 $('document').ready(function(){
     document.getElementById('root').innerHTML = `
+    <div class="battery"></div>
     <p>${bg}</p>
     <p>${img}</p>
     <p>${svg}</p>

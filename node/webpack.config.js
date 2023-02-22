@@ -20,6 +20,7 @@ module.exports = {
             },
         ]
     },
+    
     // plugins:[//html-webpack-plugin을 활용하여 html도 합치기
     //     new HtmlWebpackPlugin({
     //         minify:{

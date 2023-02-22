@@ -2,3 +2,35 @@ body{
     background-color: #000;
     color: white;
 }
+
+.battery {
+    width: 60px;
+    height: 30px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .battery:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    bottom: 2px;
+    width: 25%;
+    background-color: #999;
+    border-radius: 3px;
+  }
+  
+  .battery:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 2px;
+    width: 8px;
+    height: 14px;
+    background-color: #999;
+  }

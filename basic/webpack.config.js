@@ -17,6 +17,11 @@ module.exports = {
                 test:/\.(jp(e*)g|png|svg)$/,
                 use:['file-loader']
             },
+            {
+                test:/\.js$/,
+                exclude: /node_modules/,
+                loader:'babel-loader'
+            }
         ]
     },
     plugins:[//html-webpack-plugin을 활용하여 html도 합치기
