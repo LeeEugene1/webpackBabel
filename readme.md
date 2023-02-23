@@ -4,7 +4,6 @@
 2. nodejs설치+jquery환경은 node폴더 참고
 [참고] 
 * public이 static경로로 설정되어있기때문에 ejs에서 외부경로인 dist폴더경로로 접근 불가. public/build폴더내에 dist내용을 복제
-
 * ejs안에 다른 ejs를 추가하면?
 다른 ejs는 독립된 파일로 만약 빌드를 하고싶다면 js안에 넣거나 혹은 multiple빌드 방법을 찾아봐야한다.
 
